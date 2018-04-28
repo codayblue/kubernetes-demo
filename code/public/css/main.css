@@ -1,0 +1,16 @@
+body {
+    background: #263238;
+    color: #ECEFF1;
+}
+
+.landing {
+    width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #455A64;
+    padding: 30px;
+    border-radius: 5px;
+}

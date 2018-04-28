@@ -1,0 +1,10 @@
+{% extends('base.html.twig') %}
+
+{% block body %}
+    <div class="landing">
+        <h1 class="landing__title">{{ title }}</h1>
+        <div class="landing__body">
+            {{ body }} | Version: {{ version }}
+        </div>
+    </div>
+{% endblock %}
